@@ -6,9 +6,11 @@
 
 This repository contains a simple application showcasing the "Function Calling" feature of ChatGPT, which was announced last month (June 13, 2023) [here](https://openai.com/blog/function-calling-and-other-api-updates).
 
+
 **Application Overview:**
 
 The implemented application demonstrates how to utilize the "Function Calling" capability to enable ChatGPT 3.5 Turbo to respond to complex questions that it wouldn't be able to handle alone. Specifically, the application combines the power of the OpenWeather API and ChatGPT 3.5 Turbo to retrieve weather information for a specified location based on the provided location data and country code.
+
 
 **How it Works:**
 
