@@ -15,3 +15,6 @@ The implemented application demonstrates how to utilize the "Function Calling" c
 **How it Works:**
 
 The application takes user input containing location information (such as city name and country code) and feeds it into the "Function Calling" API. ChatGPT 3.5 Turbo converts this data into a format that the OpenWeather API can use and OpenWeather funciton fetches the desired weather information for the specified region. The retrieved data is then presented to the user with the help of gpt in response to the user's original question.
+
+## Note_1: Before proceeding, make sure to use your own OpenAI API key by placing it in the "api.env" file located in the same folder as the "ChatGPT.py" file.
+## Note_2: In this example, the location and country code are set to Istanbul, TR (Turkey). You have the flexibility to customize these settings in the "ChatGPT.py" file (lines 16-17) if you want.
