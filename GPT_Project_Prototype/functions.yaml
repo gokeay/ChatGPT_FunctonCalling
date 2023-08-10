@@ -1,0 +1,6 @@
+available_functions:
+  clear: clear
+  pick: pick
+  place: place
+  put_on: put_on
+  push: push
