@@ -12,6 +12,7 @@ openai.api_key = apiKeys.OPENAI_API_KEY
 seq_of_func = 1
 
 # functions which robot can do
+# functions wii be take from yaml file
 def position(color):
   return 1,5,3
 
