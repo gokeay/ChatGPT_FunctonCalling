@@ -24,7 +24,7 @@ def position(args):
 
 
 # taken/picked-up
-# 
+
 functions = [
           {
           "name": "multi_Func",
@@ -136,23 +136,15 @@ available_functions = {
 explanations_of_predicates = "obj(x) represent, x is an object. color(x,'red') represent, x object is red. near(x,y) represent, x object is near y object. on(x,y) represent, x object is on the top side of y object. position(x, 0.1, 0.2, 0) represent, x object is in the position x=0.1 y=0.2 z=0."
 
 predicates = {
-    "objects": {
-        "obj(x)",
-        "obj(y)",
-        "obj(z)"
-    },
-    "colors": {
-        "color(x,'red')",
-        "color(y,'blue')",
-        "color(z,'green')"
-    },
-    "states": {
-        "near(y,z)",
-        "on(y,x)"
-    },
-    "positions": {
-        "positions(x, 0.1, 0.2, 0))",
-        "positions(y, 0.1, 0.5, 0))",
-        "positions(z, 0.4, 0.5, 0))"
-    }
+    "obj(x)",
+    "obj(y)",
+    "obj(z)",
+    "color(x,'red')",
+    "color(y,'blue')",
+    "color(z,'green')",
+    "near(y,z)",
+    "on(y,x)",
+    "positions(x, 0.1, 0.2, 0))",
+    "positions(y, 0.1, 0.5, 0))",
+    "positions(z, 0.4, 0.5, 0))"
 }

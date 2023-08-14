@@ -17,7 +17,7 @@ seq_of_func = 1
 # main function which is called by user
 def run_conversation(user_request):
 
-  combined_content = explanations_of_predicates + "\n" + "\n".join(predicates["objects"]) + "\n" + "\n".join(predicates["colors"]) + "\n" + "\n".join(predicates["states"]) + "\n" + "\n".join(predicates["positions"]) + "\n" + user_request
+  combined_content = explanations_of_predicates + "\n" + "\n".join(predicates) + "\n" + user_request
   messages = [{"role": "system", "content": "You are an assistant that always replies with multiple function calls in straight JSON format ready to parsed. Respond to user request based on predicates."},
               {"role": "user", "content": combined_content}]
   
