@@ -33,18 +33,18 @@ prep_json = {
         "1,2,3": "object"
     },
     "colors": {
-        "color(1,'red')",
-        "color(2,'blue')",
-        "color(3,'green')"
+        "1":'red',
+        "2":'blue',
+        "3":'green'
     },
     "states": {
         "near(2,3)",
         "on(2,1)"
     },
     "positions": {
-        "position(1, -0.1, -0.3, 0)",
-        "position(2, -0.1, 0.2, 0.2, 0)",
-        "position(3, 0.3, 0.2, 0)"
+        "1": "-0.1, -0.3, 0",
+        "2": "-0.1, 0.2, 0.2, 0",
+        "3": "0.3, 0.2, 0"
     }
 }
 
