@@ -1,3 +1,5 @@
 api.env
 apiKeys.py
 __pycache__
+old_variables.py
+config.yaml
