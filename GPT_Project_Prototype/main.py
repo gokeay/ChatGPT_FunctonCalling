@@ -64,5 +64,5 @@ user_request_3 = "There are red and blue boxes on the table. Take the blue block
 user_request_4 = "Move the blue block to the x=4, y=3, z=0."
 user_request_5 = "There are red and blue boxes on the table. Give the blue box to me."
 
-run_conversation(user_request = user_request_5)
+run_conversation(user_request = user_request_1)
 # print("\n\nFinal GPT output:\n" + a)
